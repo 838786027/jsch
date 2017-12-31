@@ -1,0 +1,47 @@
+ERROR - 2017-11-07 16:20:57.467; com.cpphot.main.SSHExecuter; 上传文件异常
+com.jcraft.jsch.JSchException: session is down
+	at com.jcraft.jsch.Session.openChannel(Session.java:861)
+	at com.cpphot.main.SSHExecuter.upload(SSHExecuter.java:87)
+	at com.cpphot.main.Main.main(Main.java:23)
+ERROR - 2017-11-07 16:21:21.011; com.cpphot.main.SSHExecuter; 上传文件异常
+4: 
+	at com.jcraft.jsch.ChannelSftp.cd(ChannelSftp.java:359)
+	at com.cpphot.main.SSHExecuter.upload(SSHExecuter.java:93)
+	at com.cpphot.main.Main.main(Main.java:23)
+Caused by: java.lang.NullPointerException
+	at com.jcraft.jsch.ChannelSftp.cd(ChannelSftp.java:337)
+	... 2 more
+ERROR - 2017-11-07 16:21:48.944; com.cpphot.main.SSHExecuter; 上传文件异常
+4: 
+	at com.jcraft.jsch.ChannelSftp.cd(ChannelSftp.java:359)
+	at com.cpphot.main.SSHExecuter.upload(SSHExecuter.java:93)
+	at com.cpphot.main.Main.main(Main.java:23)
+Caused by: java.lang.NullPointerException
+	at com.jcraft.jsch.ChannelSftp.cd(ChannelSftp.java:337)
+	... 2 more
+ERROR - 2017-11-07 16:27:31.820; com.cpphot.main.SSHExecuter; 上传文件异常
+4: 
+	at com.jcraft.jsch.ChannelSftp.cd(ChannelSftp.java:359)
+	at com.cpphot.main.SSHExecuter.upload(SSHExecuter.java:101)
+	at com.cpphot.main.Main.main(Main.java:24)
+Caused by: java.lang.NullPointerException
+	at com.jcraft.jsch.ChannelSftp.cd(ChannelSftp.java:337)
+	... 2 more
+ERROR - 2017-11-07 16:34:45.686; com.cpphot.main.SSHExecuter; 上传文件异常
+4: java.lang.NullPointerException
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:551)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:492)
+	at com.cpphot.main.SSHExecuter.upload(SSHExecuter.java:94)
+	at com.cpphot.main.Main.main(Main.java:23)
+Caused by: java.lang.NullPointerException
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:515)
+	... 3 more
+ERROR - 2017-11-07 16:37:06.716; com.cpphot.main.SSHExecuter; 上传文件异常
+4: java.lang.NullPointerException
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:487)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:365)
+	at com.cpphot.main.SSHExecuter.upload(SSHExecuter.java:94)
+	at com.cpphot.main.Main.main(Main.java:23)
+Caused by: java.lang.NullPointerException
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:389)
+	... 3 more
